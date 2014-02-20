@@ -657,7 +657,6 @@ public class LogcatActivity extends ListActivity implements TextWatcher,
 		new AlertDialog.Builder(this)
 				.setCancelable(true)
 				.setTitle(R.string.filter_choice)
-				.setIcon(R.drawable.ic_search_category_default)
 				.setSingleChoiceItems(textAndSubtextAdapter, -1,
 						new DialogInterface.OnClickListener() {
 
@@ -941,8 +940,8 @@ public class LogcatActivity extends ListActivity implements TextWatcher,
 		}
 
 		// expandButtonImage.setImageResource(
-		menuExpandButton.setIcon(collapsedMode ? R.drawable.ic_menu_more_32
-				: R.drawable.ic_menu_less_32);
+		menuExpandButton.setIcon(collapsedMode ? R.drawable.ic_action_navigation_expand
+				: R.drawable.ic_action_navigation_collapse);
 		menuExpandButton.setTitle(collapsedMode ? R.string.expand
 				: R.string.collapse);
 		adapter.notifyDataSetChanged();
@@ -1598,10 +1597,10 @@ public class LogcatActivity extends ListActivity implements TextWatcher,
 				.getExpandedByDefaultPreference(getApplicationContext());
 		clearButton.setVisibility(filename == null ? View.VISIBLE : View.GONE);
 		pauseButton.setVisibility(filename == null ? View.VISIBLE : View.GONE);
-		pauseButtonImage.setImageResource(R.drawable.ic_media_pause);
+		pauseButtonImage.setImageResource(R.drawable.ic_action_pause);
 		expandButtonImage
-				.setImageResource(collapsedMode ? R.drawable.ic_menu_more_32
-						: R.drawable.ic_menu_less_32);
+				.setImageResource(collapsedMode ? R.drawable.ic_action_navigation_expand
+						: R.drawable.ic_action_navigation_collapse);
 		addFiltersToSuggestions(); // filters are what initial populate the
 									// suggestions
 		updateDisplayedFilename();
@@ -1955,8 +1954,8 @@ public class LogcatActivity extends ListActivity implements TextWatcher,
 
 			// pauseButtonImage.setImageResource(
 			menuPauseButton
-					.setIcon(currentTask.isPaused() ? R.drawable.ic_media_play
-							: R.drawable.ic_media_pause);
+					.setIcon(currentTask.isPaused() ? R.drawable.ic_action_play
+							: R.drawable.ic_action_pause);
 			menuPauseButton.setTitle(currentTask.isPaused() ? R.string.resume
 					: R.string.pause);
 		}

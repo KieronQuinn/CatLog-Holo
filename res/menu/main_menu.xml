@@ -71,7 +71,7 @@
         android:title="Crazy Logger"/>
     <item
         android:id="@+id/menu_pause"
-        android:icon="@drawable/ic_media_pause"
+        android:icon="@drawable/ic_action_pause"
         android:showAsAction="always"
         android:title="@string/pause">
     </item>
