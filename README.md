@@ -2,10 +2,10 @@ CatLog-Holo
 ===========
 
 A holoified version of CatLog. Android 3.0+
-
-![alt tag](http://i.imgur.com/NLCh4aYl.png)
-![alt tag](http://i.imgur.com/1qHFDcil.png)
 ![alt tag](http://i.imgur.com/QQ8xn5rl.png)
+![alt tag](http://i.imgur.com/a4gM16Ml.png)
+![alt tag](http://i.imgur.com/1qHFDcil.png)
+![alt tag](http://i.imgur.com/NLCh4aYl.png)
 
 Changes:
 - Removed top search/actionbar
