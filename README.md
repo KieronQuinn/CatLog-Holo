@@ -3,9 +3,9 @@ CatLog-Holo
 
 A holoified version of CatLog. Android 3.0+
 
-![alt tag](http://quinny898.co.uk/git/images/catlog-holo/device-2014-02-20-101240.png)
-![alt tag](http://quinny898.co.uk/git/images/catlog-holo/device-2014-02-20-101314.png)
-![alt tag](http://quinny898.co.uk/git/images/catlog-holo/device-2014-02-20-101323.png)
+![alt tag](http://i.imgur.com/NLCh4aYl.png)
+![alt tag](http://i.imgur.com/1qHFDcil.png)
+![alt tag](http://i.imgur.com/QQ8xn5rl.png)
 
 Changes:
 - Removed top search/actionbar
