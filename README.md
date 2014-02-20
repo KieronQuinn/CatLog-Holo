@@ -2,6 +2,9 @@ CatLog-Holo
 ===========
 
 A holoified version of CatLog. Android 3.0+
+Original CatLog repository:
+https://github.com/nolanlawson/Catlog
+
 ![alt tag](http://i.imgur.com/QQ8xn5rl.png)
 ![alt tag](http://i.imgur.com/a4gM16Ml.png)
 ![alt tag](http://i.imgur.com/1qHFDcil.png)
