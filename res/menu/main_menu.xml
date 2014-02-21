@@ -89,6 +89,7 @@
         android:title="@string/search"/>
     <item
         android:id="@+id/menu_clear"
+		android:title="@string/clear"
         android:icon="@drawable/ic_action_content_discard"
         android:showAsAction="always">
     </item>
