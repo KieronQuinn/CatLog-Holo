@@ -10,6 +10,7 @@ import java.util.Locale;
 import java.util.Set;
 
 import android.annotation.SuppressLint;
+import android.app.ActionBar;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.app.ListActivity;
@@ -502,7 +503,12 @@ public class LogcatActivity extends ListActivity implements TextWatcher,
 		menuPauseButton = menu.findItem(R.id.menu_pause);
 		menuExpandButton = menu.findItem(R.id.menu_expand);
 		menu.findItem(R.id.menu_clear);
-
+		final ActionBar bar = getActionBar();
+		bar.setDisplayOptions(
+		        ActionBar.DISPLAY_SHOW_TITLE |
+		        ActionBar.DISPLAY_USE_LOGO |
+		        ActionBar.DISPLAY_SHOW_HOME 
+		        );
 		mainLogMenuItem.setEnabled(!showingMainLog);
 		mainLogMenuItem.setVisible(!showingMainLog);
 		List<String> bufferNames = PreferenceHelper.getBufferNames(this);
@@ -524,6 +530,7 @@ public class LogcatActivity extends ListActivity implements TextWatcher,
 						@Override
 						public boolean onMenuItemActionExpand(MenuItem item) {
 							// TODO Auto-generated method stub
+							getActionBar().setIcon(R.drawable.icon);
 							if(!isAutoOpen){
 								searchEditText.requestFocus();
 								InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
@@ -664,7 +671,7 @@ public class LogcatActivity extends ListActivity implements TextWatcher,
 							@Override
 							public void onClick(DialogInterface dialog,
 									int which) {
-
+								
 								if (which == 0) { // tag
 									// determine the right way to phrase this
 									// tag query - e.g.
