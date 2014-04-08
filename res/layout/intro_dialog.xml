@@ -23,8 +23,8 @@
 					android:gravity="center_vertical">
 					<View android:layout_height="1dp" android:id="@+id/main_border_view_1"
 						android:layout_width="fill_parent" android:background="@color/imageBorder" />
-					<ImageView android:layout_width="wrap_content"
-						android:layout_height="wrap_content" android:src="@drawable/widget_explanation" 
+					<ImageView android:layout_width="wrap_content" 
+						android:layout_height="wrap_content" android:src="@drawable/widget_info" 
 						android:id="@android:id/icon1"/>
 					<View android:layout_height="1dp" android:id="@+id/main_border_view_1"
 						android:layout_width="fill_parent" android:background="@color/imageBorder" />
