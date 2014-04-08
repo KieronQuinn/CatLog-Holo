@@ -144,7 +144,7 @@ public class LogcatActivity extends ListActivity implements TextWatcher,
 		super.onCreate(savedInstanceState);
 
 		setContentView(R.layout.main);
-
+		
 		collapsedMode = !PreferenceHelper.getExpandedByDefaultPreference(this);
 
 		log.d("initial collapsed mode is %s", collapsedMode);

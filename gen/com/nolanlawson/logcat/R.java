@@ -239,6 +239,7 @@ public final class R {
         public static final int tab_unselected_pressed_catlog=0x7f02005f;
         public static final int tab_unselected_pressed_catlog_main=0x7f020060;
         public static final int widget_explanation=0x7f020061;
+        public static final int widget_preview=0x7f020062;
     }
     public static final class id {
         public static final int LinearLayout02=0x7f0c0020;

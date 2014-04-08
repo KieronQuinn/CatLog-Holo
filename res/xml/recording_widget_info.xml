@@ -3,6 +3,7 @@
     android:minWidth="72dp"
     android:minHeight="72dp"
     android:updatePeriodMillis="21600000"
+    android:previewImage="@drawable/widget_preview"
     android:initialLayout="@layout/recording_widget"
     
  />
